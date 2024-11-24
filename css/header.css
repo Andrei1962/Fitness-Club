@@ -1,0 +1,24 @@
+.heager {
+  /*background-color: #ececea;*/ /*не окрашивает*/
+  padding: 30px 0 10px 0;
+}
+
+.header-contriner {
+  background-color: #ececea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 64px;
+}
+
+.navigation_link {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 23.44px;
+  color: #292929;
+}
