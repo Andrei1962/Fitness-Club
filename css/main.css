@@ -3,30 +3,30 @@
   padding-top: 119px;
 }
 
-.main-conteiner {
+.main__conteiner {
   position: relative;
   height: 100%;
 }
 
-.main-title {
-  position: relative;
-  font-family: Arial;
-  font-weight: 900;
-  font-size: clamp(100px, 10vw, 160px);
-  line-height: 160px;
-  color: #CFCFCD;
-  padding-left: 28%;
-  letter-spacing: 8px;
-}
-
-.main-man {
+.main__man {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: -20px;
 }
 
-.main-text {
+.main__title {
+  position: relative;
+  font-family: Arial;
+  font-weight: 900;
+  font-size: clamp(100px, 10vw, 160px);
+  line-height: 160px;
+  color: #CFCFCD;
+  padding-left: 22%;
+  letter-spacing: 8px;
+}
+
+.main__text {
   position: relative;
   max-width: 587px;
   font-size: 20px;
@@ -40,7 +40,7 @@
   letter-spacing: 2px;
 }
 
-.main-link {
+.main__link {
   display: block;
   text-decoration: none;
   padding: 11px 32px;
