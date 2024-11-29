@@ -1,10 +1,9 @@
-.heager {
-  /*background-color: #ececea;*/ /*не окрашивает*/
+.header {
+  background-color: #ececea;
   padding: 30px 0 10px 0;
 }
 
-.header-contriner {
-  background-color: #ececea;
+.header-conteiner {
   display: flex;
   align-items: center;
   justify-content: space-between;
