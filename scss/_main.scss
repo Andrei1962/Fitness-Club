@@ -3,7 +3,7 @@
   padding-top: 119px;
 }
 
-.main__conteiner {
+.main__container {
   position: relative;
   height: 100%;
 }
@@ -17,7 +17,7 @@
 
 .main__title {
   position: relative;
-  font-family: Arial;
+  font-family: Arial Bold;
   font-weight: 900;
   font-size: clamp(100px, 10vw, 160px);
   line-height: 160px;
@@ -31,7 +31,7 @@
   max-width: 587px;
   font-size: 20px;
   font-weight: 500;
-  line-height: 23.44px;
+  line-height: 23px;
   color: #000;
   margin-left: auto;
   z-index: 2;
