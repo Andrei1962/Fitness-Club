@@ -1,0 +1,36 @@
+.section-two {
+  background-color: #292929;
+  padding: 20px;
+}
+
+&__wrapper {
+  position: relative;
+  height: 100%;
+  
+}
+
+&__title {
+  position: relative;
+  font-family: Arial Bold;
+  font-weight: 900;
+  font-size: clamp(50px, 10vw, 80px);
+  line-height: 90px;
+  color: #FFFFFF;
+  padding-left: 5%;
+  letter-spacing: 2px;
+  z-index: 4;
+}
+
+&__text {
+  position: relative;
+  /*max-width: 1200px;*/
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-left: auto;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+  z-index: 4;
+}
+
