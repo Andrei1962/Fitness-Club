@@ -3,18 +3,18 @@
   padding: 30px 0 10px 0;
 }
 
-.header__conteiner {
+&__conteiner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__navigation {
+&__navigation {
   display: flex;
   gap: 64px;
 }
 
-.header__link {
+&__link {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
