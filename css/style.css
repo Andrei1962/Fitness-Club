@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial Bold";
+  src: url("../fonts/Arial-BoldMT.eot");
+  src: url("../fonts/Arial-BoldMT.eot") format("embedded-opentype"), url("../fonts/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial-BoldMT.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
 html, body, div, span, applet, object, iframe,
@@ -55,7 +69,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+/*-------------основная программа*/
+/*-------------base*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -64,7 +79,7 @@ table {
 body {
   font-family: Roboto Light;
 }
-
+/*--------------header*/
 .header {
   background-color: #ececea;
   padding: 30px 0 10px 0;
@@ -94,7 +109,7 @@ body {
   color: rgb(249, 0, 0);
   background-color: rgb(44, 221, 224);
 }
-
+/*-----------------------main*/
 .main {
   background-color: #ececea;
   padding-top: 119px;
@@ -145,19 +160,4 @@ body {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
-}
-
-@font-face {
-  font-family: "Roboto Light";
-  src: url("Roboto-Light.eot");
-  src: url("Roboto-Light.eot?#iefix") format("embedded-opentype"), url("Roboto-Light.woff") format("woff"), url("Roboto-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Arial Bold";
-  src: url("Arial-BoldMT.eot");
-  src: url("Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("Arial-BoldMT.woff") format("woff"), url("Arial-BoldMT.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
