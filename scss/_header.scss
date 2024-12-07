@@ -1,23 +1,23 @@
 .header {
   background-color: #ececea;
   padding: 30px 0 10px 0;
-}
 
-&__conteiner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-&__navigation {
-  display: flex;
-  gap: 64px;
-}
+  &__navigation {
+    display: flex;
+    gap: 64px;
+  }
 
-&__link {
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  line-height: 23.44px;
-  color: #292929;
+  &__link {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 23.44px;
+    color: #292929;
+  }
 }

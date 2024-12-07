@@ -1,4 +1,3 @@
-/*rezet.css*/
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
 html, body, div, span, applet, object, iframe,
@@ -56,31 +55,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*основная программа*/
 
-/*base.css*/
-.conteiner {
+.container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/*header.css*/
 .header {
   background-color: #ececea;
   padding: 30px 0 10px 0;
 }
-
-.header__conteiner {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header__navigation {
   display: flex;
   gap: 64px;
 }
-
 .header__link {
   font-size: 20px;
   font-weight: 500;
@@ -89,24 +82,20 @@ table {
   color: #292929;
 }
 
-/*main.css*/
 .main {
   background-color: #ececea;
   padding-top: 119px;
 }
-
-.main__conteiner {
+.main__container {
   position: relative;
   height: 100%;
 }
-
 .main__man {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: -20px;
 }
-
 .main__title {
   position: relative;
   font-family: Arial;
@@ -117,7 +106,6 @@ table {
   padding-left: 22%;
   letter-spacing: 8px;
 }
-
 .main__text {
   position: relative;
   max-width: 587px;
@@ -131,10 +119,10 @@ table {
   padding-bottom: 130px;
   letter-spacing: 2px;
 }
-
 .main__link {
   display: block;
   text-decoration: none;
+  transition: 0, 5s;
   padding: 11px 32px;
   color: #292929;
   font-size: 20px;
