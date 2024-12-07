@@ -69,57 +69,57 @@ body {
   background-color: #ececea;
   padding: 30px 0 10px 0;
 }
-
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header__navigation {
   display: flex;
   gap: 35px;
 }
-/*.header__burger {
-  width: 48px;
-  height: 48px;
-  background-color: rgb(71, 219, 81);
-  border-radius: 4px;
-  border: 1px solid black;
-  z-index: 2;
-}*/
-.header__link_hovered {
+.header__navigation .menu__link_hovered {
   color: #131212;
   text-decoration: none;
   line-height: 23px;
   font-size: 20px;
   font-weight: 500;
   z-index: 2;
+  /*.header__link_hovered:hover {*/
 }
-
-.header__link_hovered:hover {
+.header__navigation .menu__link_hovered:hover {
   color: rgb(249, 0, 0);
   background-color: rgb(44, 221, 224);
+}
+.header__burger {
+  width: 48px;
+  height: 48px;
+  background-color: rgb(71, 219, 81);
+  border-radius: 4px;
+  border: 1px solid black;
+  z-index: 2;
+}
+.header__burger-line {
+  width: 22px;
+  height: 3px;
+  background-color: black;
 }
 
 .main {
   background-color: #ececea;
   padding-top: 119px;
 }
-
 .main__wrapper {
   position: relative;
   height: 100%;
 }
-
-.main__man {
+.main__wrapper__man {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: -20px;
 }
-
-.main__title {
+.main__wrapper__title {
   position: relative;
   font-family: Arial Bold;
   font-weight: 900;
@@ -129,8 +129,7 @@ body {
   padding-left: 22%;
   letter-spacing: 8px;
 }
-
-.main__text {
+.main__wrapper__text {
   position: relative;
   max-width: 587px;
   font-size: 20px;
@@ -143,8 +142,7 @@ body {
   padding-bottom: 130px;
   letter-spacing: 2px;
 }
-
-.main__link {
+.main__wrapper__text__link {
   display: block;
   text-decoration: none;
   padding: 11px 32px;
@@ -154,80 +152,70 @@ body {
   letter-spacing: 2px;
 }
 
+.section-0ne {
+  background-color: #fff;
+  padding-top: 72px;
+}
 .section-0ne__wrapper {
   position: relative;
-  max-width: 1400px;
-  margin: 0 auto;
-  background-color: azure;
-  border: 3px solid #000;
+  height: 100%;
+  padding-bottom: 231px;
 }
-
-.section-one {
+.section-0ne__title {
+  position: absolute;
+  left: 0;
+  top: 97px;
+  font-size: clamp(60px, 5vw, 80px);
+  font-family: Arial Bold;
+  font-weight: 900;
+  line-height: 90px;
+  z-index: 3;
+}
+.section-0ne__border {
   position: relative;
-  display: flex;
-  align-content: flex-start;
-  justify-content: center;
-  height: 100vh;
-}
-
-.section-one__border {
-  display: flex;
-  /*align-content: flex-end;*/
-  width: 45%;
-  height: 70%;
+  padding: 335px 25px 46px 25px;
+  margin-left: 160px;
+  max-width: 562px;
+  max-height: 670px;
   border: 6px solid #FF8340;
   z-index: 2;
 }
-
-.section-one__woman {
-  position: absolute;
-  bottom: 0px;
-  right: 1px;
-}
-
-.section-one__title {
-  position: relative;
-  font-family: Arial Bold;
-  font-weight: 900;
-  font-size: clamp(40px, 10vw, 60px);
-  line-height: 90px;
-  color: #292929;
-  padding-left: 5%;
-  letter-spacing: 2px;
-}
-
-.section-one__text {
-  position: relative;
-  max-width: 510px;
+.section-0ne__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
   color: #000;
-  margin-left: auto;
   z-index: 1;
-  top: 85px;
-  padding-bottom: 10px;
-  letter-spacing: 2px;
 }
-
-.section-one__link {
+.section-0ne__link {
   display: block;
-  text-decoration: none;
   padding: 11px 32px;
   color: #292929;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
+  text-decoration: none;
+  transition: 1s;
+}
+.section-0ne__link:hover {
+  color: #FF8340;
+}
+.section-0ne__woman {
+  position: absolute;
+  bottom: 0px;
+  right: -105px;
 }
 
+.section-two {
+  background-color: #292929;
+  padding: 20px;
+}
 .section-two__wrapper {
   position: relative;
-  max-width: 1400px;
-  margin: 0 auto;
-  background-color: #292929;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
-
 .section-two__title {
   position: relative;
   font-family: Arial Bold;
@@ -235,13 +223,14 @@ body {
   font-size: clamp(50px, 10vw, 80px);
   line-height: 90px;
   color: #FFFFFF;
-  padding-left: 2%;
-  letter-spacing: 8px;
+  padding-left: 5%;
+  letter-spacing: 2px;
+  text-align: center;
+  z-index: 4;
 }
-
 .section-two__text {
   position: relative;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
@@ -249,6 +238,7 @@ body {
   margin-left: auto;
   padding-bottom: 30px;
   letter-spacing: 2px;
+  z-index: 4;
 }
 
 @font-face {
