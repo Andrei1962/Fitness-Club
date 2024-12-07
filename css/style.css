@@ -69,8 +69,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*-------------основная программа*/
-/*-------------base*/
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -79,23 +78,20 @@ table {
 body {
   font-family: Roboto Light;
 }
-/*--------------header*/
+
 .header {
   background-color: #ececea;
-  padding: 30px 0 10px 0;
+  padding: 50px 0 10px 0;
 }
-
 .header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header__navigation {
   display: flex;
   gap: 35px;
 }
-
 .header__link_hovered {
   color: #131212;
   text-decoration: none;
@@ -104,29 +100,25 @@ body {
   font-weight: 500;
   z-index: 2;
 }
-
 .header__link_hovered:hover {
   color: rgb(249, 0, 0);
   background-color: rgb(44, 221, 224);
 }
-/*-----------------------main*/
+
 .main {
   background-color: #ececea;
   padding-top: 119px;
 }
-
 .main__container {
   position: relative;
   height: 100%;
 }
-
 .main__man {
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: -20px;
 }
-
 .main__title {
   position: relative;
   font-family: Arial Bold;
@@ -137,9 +129,9 @@ body {
   padding-left: 22%;
   letter-spacing: 8px;
 }
-
 .main__text {
   position: relative;
+  display: flex;
   max-width: 587px;
   font-size: 20px;
   font-weight: 500;
@@ -151,11 +143,10 @@ body {
   padding-bottom: 130px;
   letter-spacing: 2px;
 }
-
 .main__link {
   display: block;
   text-decoration: none;
-  padding: 11px 32px;
+  padding: 31px 32px;
   color: #292929;
   font-size: 20px;
   font-weight: 500;
