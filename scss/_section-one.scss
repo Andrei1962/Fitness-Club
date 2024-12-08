@@ -22,7 +22,7 @@
   &__border {
     position: relative;
     padding: 335px 25px 46px 25px;
-    margin-left: 160px;
+    margin-left: 180px;
     max-width: 562px;
     max-height: 670px;
     border: 6px solid #FF8340;
@@ -32,21 +32,20 @@
   &__text {
     font-size: 20px;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 24px;
     color: #000;
     z-index: 1;
   }
-
   &__link {
     display: block;
     padding: 11px 32px;
-    color: #292929;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500px;
     letter-spacing: 2px;
+    color: #292929;
     text-decoration: none;
     transition: 1s;
-    
+
     &:hover {
       color: #FF8340;
     }
@@ -54,7 +53,7 @@
 
   &__woman {
     position: absolute;
-    bottom: 0px;
-    right: -105px;
+    bottom: 0;
+    right: -130px;
   }
 }
