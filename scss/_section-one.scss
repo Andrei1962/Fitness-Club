@@ -55,20 +55,11 @@
   }
 
   &__text {
-    position: relative;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     color: #000;
-    z-index: 1;
-
-    @media screen and (max-width: 952px) {
-      padding-bottom: 33px;
-      height: 210px;
-      margin-left: 33px;
-      max-width: 439px;
-      max-height: 200px;
-    }
+    z-index: 1;    
   }
 
   &__link {
