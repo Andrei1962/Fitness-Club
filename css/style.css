@@ -357,17 +357,122 @@ body {
   letter-spacing: 2px;
 }
 
+.inputs {
+  padding: 40px 32px 165px 32px;
+  background-color: #ff8340;
+}
+@media screen and (max-width: 952px) {
+  .inputs {
+    padding: 32px 32px 21px 32px;
+  }
+}
+.inputs__title {
+  margin-bottom: 35px;
+  font-size: clamp(32px, 5vw, 45px);
+  color: #292929;
+  font-weight: 900;
+  font-family: "Arial";
+  text-align: center;
+}
+@media screen and (max-width: 952px) {
+  .inputs__title {
+    margin-bottom: 38px;
+  }
+}
+.inputs__line {
+  width: 64px;
+  height: 6px;
+  background-color: #292929;
+  margin: 0 auto 50px auto;
+}
+@media screen and (max-width: 952px) {
+  .inputs__line {
+    margin: 0 auto 48px auto;
+  }
+}
+.inputs__description {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #000;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 952px) {
+  .inputs__description {
+    margin-bottom: 30px;
+  }
+}
+.inputs .form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+@media screen and (max-width: 952px) {
+  .inputs .form {
+    gap: 20px;
+  }
+}
+.inputs .form__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.inputs .form__item_one {
+  width: 49%;
+  background-color: #292929;
+  color: #fffcfc;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.inputs .form__item_two {
+  width: 49%;
+  color: #000;
+  border: 2px solid #cfcfcd;
+  box-sizing: border-box;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  /*margin: 0 auto;*/
+}
+.inputs .form__textarea {
+  resize: none;
+  width: 100%;
+  height: 198px;
+  box-sizing: border-box;
+  padding: 18px 34px;
+  color: #b0b0b0;
+  border: 2px solid #cfcfcd;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.inputs .form__btn {
+  align-self: end;
+  padding: 11px 0;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 1s;
+}
+.inputs .form__btn:hover {
+  background-color: #fff;
+}
+
 @font-face {
   font-family: "Roboto Light";
-  src: url("Roboto-Light.eot");
-  src: url("Roboto-Light.eot?#iefix") format("embedded-opentype"), url("Roboto-Light.woff") format("woff"), url("Roboto-Light.ttf") format("truetype");
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Arial Bold";
-  src: url("Arial-BoldMT.eot");
-  src: url("Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("Arial-BoldMT.woff") format("woff"), url("Arial-BoldMT.ttf") format("truetype");
-  font-weight: normal;
+  src: url("../fonts/Arial-BoldMT.eot");
+  src: url("../fonts/Arial-BoldMT.eot") format("embedded-opentype"), url("../fonts/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial-BoldMT.ttf") format("truetype");
+  font-weight: 900;
   font-style: normal;
 }/*# sourceMappingURL=style.css.map */
