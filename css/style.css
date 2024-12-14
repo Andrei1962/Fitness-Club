@@ -358,7 +358,7 @@ body {
 }
 
 .inputs {
-  padding: 40px 32px 165px 32px;
+  padding: 30px 32px 165px 32px;
   background-color: #ff8340;
 }
 @media screen and (max-width: 952px) {
@@ -421,6 +421,7 @@ body {
   width: 100%;
 }
 .inputs .form__item_one {
+  padding: 18px avto 17px 34px;
   width: 49%;
   background-color: #292929;
   color: #fffcfc;
@@ -429,6 +430,7 @@ body {
   font-weight: 500;
 }
 .inputs .form__item_two {
+  padding: 18px avto 17px 34px;
   width: 49%;
   color: #000;
   border: 2px solid #cfcfcd;
@@ -436,7 +438,6 @@ body {
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 500;
-  /*margin: 0 auto;*/
 }
 .inputs .form__textarea {
   resize: none;
@@ -457,6 +458,7 @@ body {
   cursor: pointer;
   background-color: transparent;
   transition: 1s;
+  border: none;
 }
 .inputs .form__btn:hover {
   background-color: #fff;
