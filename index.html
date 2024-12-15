@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ДЗ 1.2.6 Адаптив</title>
+  <title>ДЗ 1.2.7  ФОРМЫ</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -51,5 +51,32 @@
       <p class="section-two__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </section>
+
+  <Section CLASS="inputs">
+    <div class="container">
+      <h2 class="inputs__title">СВЯЖИТЕСЬ С НАМИ</h2>
+      <div class="inputs__line"></div>
+      <p class="inputs__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <form action="sss" class="inputs__form form">
+        <div class="form__item">
+          <select name="aaa" id="A111" size="1" class="form__item_one"> 
+            <option value="">Категория вопроса</option>
+            <option value="">АБОНЕМЕНТЫ</option>
+            <option value="">ТРЕНЕРЫ</option>
+            <option value="">ТРЕНАЖЁРНЫЕ ЗАЛЫ</option>
+          </select>
+          <input type="text" class="form__item_two" placeholder="Ваше имя">
+        </div> 
+        <div class="form__item">
+          <input type="text" class="form__item_two" placeholder="Телефон">
+          <input type="text" class="form__item_two" placeholder="E-mail">
+        </div>
+        <textarea name="sss" id="B222" class="form__textarea" placeholder="Текст сообщения"></textarea>
+        <button class="form__btn">ЗАКАЗАТЬ ЗВОНОК</button>
+      </form>
+    </div>
+  </Section>
 </body>
 </html>
