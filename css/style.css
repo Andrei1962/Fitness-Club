@@ -70,6 +70,11 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -499,4 +504,19 @@ body {
   letter-spacing: 2px;
   line-height: 24px;
   color: #292929;
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("Roboto-Light.eot");
+  src: url("Roboto-Light.eot?#iefix") format("embedded-opentype"), url("Roboto-Light.woff") format("woff"), url("Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial Bold";
+  src: url("Arial-BoldMT.eot");
+  src: url("Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("Arial-BoldMT.woff") format("woff"), url("Arial-BoldMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
