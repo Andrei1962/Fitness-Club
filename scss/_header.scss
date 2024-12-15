@@ -20,6 +20,7 @@
 
   &__navigation {
     display: flex;
+    text-decoration: none;
     gap: 35px;
 
     @media screen and (max-width: 952px) {
