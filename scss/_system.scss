@@ -76,13 +76,8 @@
 
   &__preview {
     grid-area: preview;
-    background: url("./images/barbell.png");
+    background: url("../images/barbell.png");
     background-repeat: no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width:1200px) {
-      width: 50%;
-      height: 50%;
-    }
+    background-size: cover;    
   }
 }

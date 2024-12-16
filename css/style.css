@@ -444,15 +444,9 @@ body {
 }
 .system__preview {
   grid-area: preview;
-  background: url("./images/barbell.png");
+  background: url("../images/barbell.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media screen and (max-width: 1200px) {
-  .system__preview {
-    width: 50%;
-    height: 50%;
-  }
 }
 
 .footer {
